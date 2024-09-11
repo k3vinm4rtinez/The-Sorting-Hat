@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  box-sizing: border-box;
+  background: #13271f;
+  height: 100vh;
+  flex-direction: column;
+  color: whitesmoke;
+  font-family: 'Suse';
+}
+
+h1 {
+  font-family: "Harry Potter", sans-serif;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.5rem;
+  color: #6fffc8;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  background: #6fffc8;
+  height: 4rem;
+  width: 8rem;
+  border: none;
+  border-radius: 10px;
+  color: #13271f;
+  font-weight: bold;
+}
+
+.options {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+  gap: 0.5rem;
+}
+
+.option {
+  border: none;
+  border-radius: 10px;
+  background: #6fffc8;
+  color: #13271f;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.hat {
+  display: block;
+  width: 20%;
+  animation: updown 2s infinite;
+  filter: drop-shadow(0rem 0rem 0.5rem #6fffc8);
+  margin-top: 1rem;
+}
+
+.continueButton {
+  display: none;
+}
+
+.containerIntro {
+  display: none;
+}
+
+input {
+  background: transparent;
+  border-radius: 1rem;
+  border: 2px solid #6fffc8;
+  padding: 1rem;
+  color: white;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.containerIntro {
+  margin-bottom: 4rem;
+}
+
+.shield {
+  display: none;
+  width: 20%;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-0.2rem);
+  }
+  50% {
+    transform: translateY(0.2rem);
+  }
+  100% {
+    transform: translateY(-0.2rem);
+  }
+}
+
+@media (max-width: 500px) {
+  .hat {
+    width: 40%;
+  }
+  .options {
+    width: 80%;
+  }
+  .shield {
+    width: 40%;
+  }
+}

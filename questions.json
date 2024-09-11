@@ -1,0 +1,72 @@
+[
+  {
+    "question": "¿Cómo te gustaría resolver un conflicto?",
+    "gryffindor": "Enfrentándolo directamente y con valentía.",
+    "slytherin": "Analizando la situación para obtener el mayor beneficio.",
+    "ravenclaw": "Buscando la solución más lógica y razonada.",
+    "hufflepuff": "Tratando de mediar y encontrar un acuerdo justo."
+  },
+  {
+    "question": "¿Cuál es tu actitud hacia las reglas?",
+    "gryffindor": "A veces desafiarlas si es necesario para lo correcto.",
+    "slytherin": "Usarlas a tu favor para avanzar en tus objetivos.",
+    "ravenclaw": "Seguirlas si ayudan a mantener el orden y el conocimiento.",
+    "hufflepuff": "Respetarlas y cumplirlas con diligencia."
+  },
+  {
+    "question": "¿Qué te motiva a seguir adelante en tiempos difíciles?",
+    "gryffindor": "La posibilidad de superar el desafío con valentía.",
+    "slytherin": "El deseo de lograr tus objetivos y ambiciones.",
+    "ravenclaw": "La búsqueda de respuestas y soluciones inteligentes.",
+    "hufflepuff": "El apoyo de tus seres queridos y el valor del trabajo duro."
+  },
+  {
+    "question": "¿Cómo prefieres trabajar en equipo?",
+    "gryffindor": "Asumiendo el liderazgo y enfrentando los desafíos juntos.",
+    "slytherin": "Aprovechando las habilidades individuales para alcanzar los objetivos.",
+    "ravenclaw": "Contribuyendo con ideas innovadoras y estrategias.",
+    "hufflepuff": "Colaborando y apoyando a todos para que el equipo tenga éxito."
+  },
+  {
+    "question": "¿Qué importancia le das a la tradición?",
+    "gryffindor": "Puede ser importante, pero a veces es necesario romperla para hacer lo correcto.",
+    "slytherin": "Solo la sigues si te beneficia en tus planes y metas.",
+    "ravenclaw": "Valoras la tradición si tiene un propósito intelectual y educativo.",
+    "hufflepuff": "La respetas y sigues con fidelidad, ya que es parte de la comunidad."
+  },
+  {
+    "question": "¿Cómo te enfrentas a un desafío desconocido?",
+    "gryffindor": "Con determinación y valentía, sin dejar que el miedo te detenga.",
+    "slytherin": "Planeando cuidadosamente y adaptándote para asegurar el éxito.",
+    "ravenclaw": "Investigando y aprendiendo todo lo posible antes de actuar.",
+    "hufflepuff": "Abordándolo con paciencia y perseverancia, y buscando apoyo si es necesario."
+  },
+  {
+    "question": "¿Qué valoras más en el aprendizaje?",
+    "gryffindor": "La capacidad de usar el conocimiento para superar obstáculos.",
+    "slytherin": "La oportunidad de obtener ventajas y lograr tus metas.",
+    "ravenclaw": "La adquisición de sabiduría y la expansión del entendimiento.",
+    "hufflepuff": "El crecimiento personal y la aplicación práctica del conocimiento."
+  },
+  {
+    "question": "¿Cómo te enfrentas a la adversidad?",
+    "gryffindor": "Con coraje y una actitud decidida para superarla.",
+    "slytherin": "Usando tu ingenio y estrategia para convertirla en una oportunidad.",
+    "ravenclaw": "Analizando la situación para encontrar la mejor manera de manejarla.",
+    "hufflepuff": "Con perseverancia y trabajando diligentemente para superarla."
+  },
+  {
+    "question": "¿Cuál es tu enfoque para resolver un problema complicado?",
+    "gryffindor": "Enfrentándolo de frente y buscando soluciones valientes.",
+    "slytherin": "Evaluando cómo resolverlo de manera que favorezca tus intereses.",
+    "ravenclaw": "Descomponiéndolo y abordándolo con lógica y creatividad.",
+    "hufflepuff": "Enfrentándolo paso a paso y buscando ayuda si es necesario."
+  },
+  {
+    "question": "¿Cómo decides a quién confiar tus secretos?",
+    "gryffindor": "A quien demuestre valentía y nobleza.",
+    "slytherin": "A quien creas que puede usar la información a tu favor o protegerte.",
+    "ravenclaw": "A quien sea inteligente y digno de confianza.",
+    "hufflepuff": "A quienes han demostrado lealtad y confianza en el pasado."
+  }
+]
