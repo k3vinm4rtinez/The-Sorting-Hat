@@ -6,11 +6,24 @@ body {
   justify-content: center;
   margin: 0;
   box-sizing: border-box;
-  background: #13271f;
+  background: url("./libs/images/hogwarts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   flex-direction: column;
   color: whitesmoke;
   font-family: 'Suse';
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #13271f9d, #13271f, #13271f);
+  z-index: 0;
 }
 
 h1 {
@@ -24,7 +37,9 @@ h1 {
 }
 
 h2 {
+  font-size: xx-large;
   text-align: center;
+  z-index: 10;
 }
 
 button {
@@ -35,6 +50,7 @@ button {
   border-radius: 10px;
   color: #13271f;
   font-weight: bold;
+  z-index: 10;
 }
 
 .options {
@@ -70,22 +86,33 @@ button {
 }
 
 input {
-  background: transparent;
+  background: #13271f9d;
   border-radius: 1rem;
   border: 2px solid #6fffc8;
   padding: 1rem;
   color: white;
   outline: none;
   margin-top: 2rem;
+  z-index: 10;
 }
 
 .containerIntro {
   margin-bottom: 4rem;
 }
 
-.shield {
+.flag {
+  position: absolute;
   display: none;
   width: 20%;
+  z-index: 10;
+}
+
+.flag_left {
+  left: 0;
+}
+
+.flag_right {
+  right: 0;
 }
 
 @keyframes updown {
@@ -107,7 +134,13 @@ input {
   .options {
     width: 80%;
   }
-  .shield {
+  .flag {
     width: 40%;
+  }
+  .flag_right {
+    display: none!important;
+  }
+  .flag_left {
+    position: relative;
   }
 }

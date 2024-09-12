@@ -8,7 +8,9 @@ const data = fetch("questions.json")
     const name = document.querySelector("#name");
     const continueButton = document.querySelector(".continueButton");
     const intro = document.querySelector(".containerIntro");
-    const shield = document.querySelector(".shield");
+    const flagLeft = document.querySelector(".flag_left");
+    const flagRight = document.querySelector(".flag_right");
+
 
     const gryffindor = document.querySelector(".gryffindor");
     const slytherin = document.querySelector(".slytherin");
@@ -33,7 +35,8 @@ const data = fetch("questions.json")
         if (gPoints >= sPoints && gPoints >= rPoints && gPoints >= hPoints) {
           win = "¡Gryffindor!";
           containerQuestion.style.color = "#d32f2f";
-          shield.src = "./libs/images/gryffindor.png"
+          flagLeft.src = "./libs/images/gryffindor.png"
+          flagRight.src = "./libs/images/gryffindor.png"
         } else if (
           sPoints >= gPoints &&
           sPoints >= rPoints &&
@@ -41,7 +44,8 @@ const data = fetch("questions.json")
         ) {
           win = "¡Slytherin!";
           containerQuestion.style.color = "#2fd34a";
-          shield.src = "./libs/images/slytherin.png"
+          flagLeft.src = "./libs/images/slytherin.png"
+          flagRight.src = "./libs/images/slytherin.png"
         } else if (
           rPoints >= gPoints &&
           rPoints >= sPoints &&
@@ -49,7 +53,8 @@ const data = fetch("questions.json")
         ) {
           win = "¡Ravenclaw!";
           containerQuestion.style.color = "#2f63d3";
-          shield.src = "./libs/images/ravenclaw.png"
+          flagLeft.src = "./libs/images/ravenclaw.png"
+          flagRight.src = "./libs/images/ravenclaw.png"
         } else if (
           hPoints >= gPoints &&
           hPoints >= sPoints &&
@@ -57,12 +62,14 @@ const data = fetch("questions.json")
         ) {
           win = "¡Hufflepuff!";
           containerQuestion.style.color = "#d3892f";
-          shield.src = "./libs/images/hufflepuff.png"
+          flagLeft.src = "./libs/images/hufflepuff.png"
+          flagRight.src = "./libs/images/hufflepuff.png"
         }
         containerQuestion.innerText = win;
         options.style.display = "none";
         hat.style.display = "none";
-        shield.style.display = "block";
+        flagLeft.style.display = "block";
+        flagRight.style.display = "block";
       }
     }
 
