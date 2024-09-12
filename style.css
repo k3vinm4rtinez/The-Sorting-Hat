@@ -40,6 +40,9 @@ h2 {
   font-size: xx-large;
   text-align: center;
   z-index: 10;
+  background: #00000066;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 button {
@@ -103,8 +106,9 @@ input {
 .flag {
   position: absolute;
   display: none;
-  width: 20%;
+  width: 30%;
   z-index: 10;
+  top: 0;
 }
 
 .flag_left {
