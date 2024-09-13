@@ -33,11 +33,11 @@ h1 {
   top: 0;
   width: 100%;
   padding: 0.5rem;
-  color: #6fffc8;
+  color: whitesmoke;
 }
 
 h2 {
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   z-index: 10;
   background: #00000066;
@@ -48,13 +48,13 @@ h2 {
 
 button {
   background: #6fffc8;
-  height: 4rem;
-  width: 8rem;
+  height: auto;
+  width: auto;
   border: none;
   border-radius: 10px;
   color: #13271f;
-  font-weight: bold;
   z-index: 10;
+  padding: 0.5rem;
 }
 
 .options {
