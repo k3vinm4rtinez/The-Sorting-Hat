@@ -110,7 +110,6 @@ input {
 
 .flag {
   position: absolute;
-  display: none;
   width: 30%;
   z-index: 10;
   top: 0;
@@ -144,6 +143,7 @@ input {
     width: 80%;
   }
   .flag {
+    display: none;
     width: 40%;
   }
   .flag_right {
