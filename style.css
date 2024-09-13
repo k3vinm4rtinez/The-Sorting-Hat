@@ -43,6 +43,7 @@ h2 {
   background: #00000066;
   padding: 1rem;
   border-radius: 1rem;
+  display: none;
 }
 
 button {
@@ -84,6 +85,10 @@ button {
   display: none;
 }
 
+.startButton {
+  margin: 1rem;
+}
+
 .containerIntro {
   display: none;
 }
@@ -95,7 +100,7 @@ input {
   padding: 1rem;
   color: white;
   outline: none;
-  margin-top: 2rem;
+  margin-top: 1rem;
   z-index: 10;
 }
 

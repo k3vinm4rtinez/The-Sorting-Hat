@@ -95,6 +95,7 @@ const data = fetch("questions.json")
 
     continueButton.addEventListener("click", () => {
       continueButton.style.display = "none";
+      containerQuestion.style.display = "block"; 
       options.style.display = "grid";
       intro.style.display = "none";
       console.log(name.value);
